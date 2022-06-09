@@ -43,15 +43,31 @@ nav {
 }
 
 .main-image {
-    width: 110%;
+    width: 80%;
     padding-left: 5%;
 }
 
 .main-button {
-    background-color: white;
+    background-color: #50E623;
+    color: white;
+    border: 1px solid #50E623;
     padding: 2% 3%;
-    border: solid 2px black;
     border-radius: 25px;
+}
+
+.main-content a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content a:hover {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😀</text></svg>") 16 0,auto;
+    color: white;
+}
+
+.main-button:hover {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😀</text></svg>") 16 0,auto;
+    color: white;
 }
 
 .main-description {
@@ -61,7 +77,94 @@ nav {
     margin-bottom: 5%;
 }
 
-/* Gold Standard */
+/* Blockchain */
+
+.blockchain-section {
+    margin: 4% 8% 8% 8%;
+}
+
+.blockchain-section img {
+    width: 110%;
+}
+
+.blockchain-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.blockchain-section a:hover {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔒</text></svg>") 16 0,auto;
+    color: white;
+}
+
+.blockchain-pointer:hover {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔒</text></svg>") 16 0,auto;
+}
+
+.subtitle-header {
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding-bottom: 3%;
+}
+
+.subtitle-text-container {
+    background-color: #EDEDED;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.subtitle-cta {
+    background-color: #50E623;
+    color: white;
+    border-radius: 20px;
+    padding: 1% 2%; 
+    font-size: 1.5rem;
+}
+
+.subtitle-cta:hover {
+    background-color: #3DA7FD;
+    color: white;
+    border-radius: 20px;
+    padding: 1% 2%; 
+}
+
+.integration-section a {
+    text-decoration: none;
+    color: white;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>") 16 0,auto;
+}
+
+.integration-section a:hover {
+    color: white;
+}
+
+/* Security */
+
+.security-section {
+    margin: 8%;
+}
+
+.security-section img {
+    width: 100%;
+}
+
+.security-pointer:hover {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💪</text></svg>") 16 0,auto;
+}
+
+.security-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.security-section a:hover {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💪</text></svg>") 16 0,auto;
+    color: white;
+}
+
+/* We Believe */
 
 .we-believe {
     color: white;
@@ -104,29 +207,46 @@ nav {
     padding: 3% 0;
 }
 
-.gold-content {
-    color: white;
-    font-weight: 600;
-    font-size: 2.2em;
-    
-}
-
-.gold-content-bullet {
-    font-size: 1.5rem;
-}
-
-.gold-keyword {
-    color: #FCF632
-}
-
 .cloud-storage-standard {
     text-decoration: underline;
 }
 
-.gold-standard-card {
-    background-color: #414141;
-    border-radius: 25px;
-    margin-top: 20px;
+/* Pricing */
+
+.pricing-section {
+    margin: 8%;
+}
+
+.pricing-section img {
+    width: 100%;
+    background-color: white;
+}
+
+.pricing-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.pricing-section a:hover {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💚</text></svg>") 16 0,auto;
+    color: white;
+}
+
+.pricing-pointer:hover {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💚</text></svg>") 16 0,auto;
+}
+
+/* Integration */
+.integration-section {
+    margin: 8%;
+}
+
+.integration-section img {
+    width: 105%;
+}
+
+.integration-pointer:hover {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>") 16 0,auto;
 }
 
 /* Waitlist */
@@ -152,6 +272,12 @@ nav {
     border-radius: 12px;
     border: none;
     padding: 1% 2%;
+}
+
+.waitlist-button a:hover {
+    color: white;
+    font-weight: 700;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😀</text></svg>") 16 0,auto;
 }
 
 .waitlist-button a {
@@ -182,10 +308,24 @@ nav {
     padding: 3% 0;
 }
 
+/* Contact */
+
+.contact-section {
+    margin: 8%;
+}
+
+.contact-section img {
+    width: 110%;
+}
+
+.contact-pointer:hover {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔔</text></svg>") 16 0, auto;
+}
+
 /* Footer  */
 
 footer {
-    background-color: white;
+    background-color: black;
 }
 
 .footer-wordmark {
@@ -198,22 +338,94 @@ footer img {
 
 footer a {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+footer a:hover {
+    color: #5DD856;
 }
 
 .footer-content {
     padding: 4% 0;
 }
 
+/* Media Queries */
+
 @media (max-width: 600px) {
     .container-fluid img {
         width: 35%;
         height: 35%;
+    }
+
+    .security-section img {
+        display: none;
     }
 }
 
 @media (max-width: 768px) {
     #pledge-2 {
         padding-top: 5%;
+    }
+
+    .security-section img {
+        display: none;
+    }
+
+    .container-fluid img {
+        width: 40%;
+    }
+
+    .main-title {
+        font-size: 2.7rem;
+    }
+
+    .blockchain-section img {
+        width: 70%;
+    }
+
+    .pricing-section img {
+        width: 70%;
+        display: none;
+    }
+
+    .contact-section img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-content h1 {
+        margin: 0 6%;
+        font-size: 2.2rem;
+    }
+
+    .main-description {
+        margin: 0 6%;
+    }
+
+    .main-button {
+        margin-top: 7%;
+        padding: 3% 6%;
+        font-size: 1.2rem;
+    }
+
+    .subtitle-header {
+        font-size: 2.2rem;
+    }
+
+    .subtitle-text-container {
+        font-size: 1rem;
+    }
+
+    .subtitle-cta {
+        padding: 2% 4%;
+    }
+
+    .security-section img {
+        display: none;
+    }
+
+    .pledges {
+        padding: 0 2% 6% 2%;
     }
 }
